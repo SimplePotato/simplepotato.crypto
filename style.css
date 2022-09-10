@@ -131,20 +131,9 @@ img:hover{
     align-items: center;
   }
 
-  section::before {
-    content: '';
-    position: absolute;
-    display: flex;
-    height: 60%;
-    flex-direction: column;
-    z-index: 1;
-    backdrop-filter: blur(5px);
-    border-top: 1px solid rgb(0, 255, 149);
-  }
-
   ul {
     position: relative;
-    margin-top: -40%;
+    margin-top: 0%;
     display: flex;
     align-items: center;
     justify-content: center;

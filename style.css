@@ -135,6 +135,7 @@ img:hover{
     content: '';
     position: absolute;
     display: flex;
+    height: 60%;
     flex-direction: column;
     z-index: 1;
     backdrop-filter: blur(5px);
@@ -143,6 +144,7 @@ img:hover{
 
   ul {
     position: relative;
+    margin-top: -40%;
     display: flex;
     align-items: center;
     justify-content: center;

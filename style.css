@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: box, border-box;
 }
 body {
   overflow: hidden;
@@ -23,7 +23,7 @@ section::before {
   height: 50%;
   z-index: 1;
   backdrop-filter: blur(5px);
-  border-top: 1px solid rgba(255, 251, 0, 0.377);
+  border-top: 1px solid rgb(0, 255, 149);
 }
 section .color {
   position: absolute;
@@ -36,7 +36,7 @@ section .color:nth-child(1) {
   top: -350px;
 }
 section .color:nth-child(2) {
-  background: #aac56bb9;
+  background: #577a3ab9;
   width: 500px;
   height: 500px;
   bottom: -150px;
@@ -110,6 +110,95 @@ img:hover{
   transform: rotate(720deg);
   transition-property: all;
   transition-duration: 3s;
-  transition-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955)
+  transition-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition-delay: 0.2s;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  section {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section::before {
+    content: '';
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgb(0, 255, 149);
+  }
+
+  ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+  }
+  ul li {
+    position: relative;
+    list-style: none;
+    margin: 5px;
+  }
+  ul li a {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 5px 45px rgba(0,0,0,0.1);
+    backdrop-filter: blur(2px);
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+  ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+}
+
+img {
+  position:inherit;
+  height:80px;
+  width: 80px;
+  margin-bottom: 8px;
+  border-radius: 16%;
+}
+
+img:hover{
+  -ms-transform: rotate(720deg); /* IE 9 */
+  transform: rotate(720deg);
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition-delay: 0.2s;
+}
 }

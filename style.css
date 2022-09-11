@@ -63,13 +63,54 @@ p {
 	font-size: 1.3vw;
 	transition: all 1500ms ease-out;
   font-family: 'Cinzel', serif;
-  z-index: 3;
+  z-index: 2;
+}
+
+.quote {
+  position: absolute;
+  top: 65%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px; 
+  border-right: 2px solid #403f3e;
+  font-size: 1vw; 
+  white-space: wrap;
+  overflow:visible;  
+  animation: typewriter 20s steps(100) 1s 5 normal both, blinkTextCursor .9s steps(100) 113 normal forwards;
+}
+
+@keyframes shift{
+  from{
+    background-position: 0 100%;
+  }
+  
+  to{
+    background-position: 100% 0%;
+  }
+}
+
+@keyframes typewriter{
+  from{
+    width: 50%;
+  }
+  to{
+    height: -30%;
+  }
+}
+
+@keyframes blinkTextCursor{
+  from{
+    border-right-color: rgb(0, 255, 149);
+  }
+  to{
+    border-right-color: transparent;
+  }
 }
 
 
 
 .text-blur  {
-	text-shadow: 0 0 8px rgba(0, 0, 0, 0);
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.527);
 	color: transparent;
 }
 
@@ -224,7 +265,7 @@ img:hover{
 }
 
 p {
-  margin-top: -50%;
+  margin-top: -55%;
 	max-width: 30%;
 	position: absolute;
   text-align:left;

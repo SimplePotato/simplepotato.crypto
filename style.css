@@ -1,3 +1,5 @@
+/*Text blure on click - https://codepen.io/alexerlandsson/pen/WQQXmO*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -49,6 +51,33 @@ section .color:nth-child(3) {
   bottom: 50px;
   right: 0px;
 }
+
+p {
+  margin-top: -20%;
+  width: 600px;
+	max-width: 80%;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.3vw;
+	transition: all 1500ms ease-out;
+  font-family: 'Cinzel', serif;
+}
+
+
+
+.text-blur  {
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0);
+	color: transparent;
+}
+
+#toggle {
+	text-transform: uppercase;
+	transition: all 500ms ease;
+	cursor:crosshair
+}
+
 ul {
   position: relative;
   display: flex;
@@ -192,4 +221,29 @@ img:hover{
   transition-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition-delay: 0.2s;
 }
+
+p {
+  margin-top: -60%;
+	max-width: 30%;
+	position: absolute;
+  text-align:left;
+  text-orientation:upright;
+  margin-left: -30%;
+	transform: translate(-50%, -50%);
+	font-size: 2vw;
+	transition: all 1500ms ease-out;
+  font-family: 'Cinzel', serif;
+}
+
+.text-blur  {
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0);
+	color: transparent;
+}
+
+#toggle {
+	text-transform: uppercase;
+	transition: all 500ms ease;
+	cursor:crosshair
+}
+
 }

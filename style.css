@@ -279,8 +279,49 @@ p {
   z-index: 2;
 }
 
+.quote {
+  position: absolute;
+  top: 50%; 
+  right: 30%;
+  transform: translate(-50%, -50%);
+  width: 40%; 
+  border-right: 1px solid #403f3e00;
+  font-size: 2vw; 
+  white-space: wrap;
+  overflow:visible;  
+  animation: typewriter 2s steps(10) .10s 10 normal both, blinkTextCursor .9s steps(10) 11 normal forwards;
+}
+
+@keyframes shift{
+  from{
+    background-position: 1% 100%;
+  }
+  
+  to{
+    background-position: 100% 1%;
+  }
+}
+
+@keyframes typewriter{
+  from{
+    width: 40%;
+  }
+  to{
+    height: 30%;
+  }
+}
+
+@keyframes blinkTextCursor{
+  from{
+    border-right-color: rgba(0, 255, 149, 0);
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+
 .text-blur  {
-	text-shadow: 0 0 8px rgba(0, 0, 0, 0);
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.527);
 	color: transparent;
 }
 

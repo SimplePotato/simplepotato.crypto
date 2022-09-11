@@ -232,7 +232,9 @@ p {
 	transform: translate(-50%, -50%);
 	font-size: 2vw;
 	transition: all 1500ms ease-out;
+  transition: all 1500ms ease-in;
   font-family: 'Cinzel', serif;
+  z-index: 2;
 }
 
 .text-blur  {

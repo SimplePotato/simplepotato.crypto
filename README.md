@@ -1,1 +1,1 @@
- [simplepotato.crypto](simplepotato.crypto)
+ [stellarstoic.888](stellarstoic.888)

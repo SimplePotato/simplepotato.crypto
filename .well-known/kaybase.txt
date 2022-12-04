@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/stellarstoic
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://xlm.si
+  * I am stellarstoic (https://keybase.io/stellarstoic) on keybase.
+  * I have a public key ASCcRT7m7FiMKqzA8UnOxGDCTel_HrWFsyYoDnKJYEGefQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209c453ee6ec588c2aacc0f149cec460c24de97f1eb585b326280e728960419e7d0a",
+      "host": "keybase.io",
+      "kid": "01209c453ee6ec588c2aacc0f149cec460c24de97f1eb585b326280e728960419e7d0a",
+      "uid": "c8f49fb7643e9af429d7719171dd8219",
+      "username": "stellarstoic"
+    },
+    "merkle_root": {
+      "ctime": 1670184440,
+      "hash": "05502c29aded1a95ce583ebfadb70daa4e8cf441e90fd7b82c8197e36ac65bd5e840acf51417b7fc800d9db868a096c6dbb55103cfb8591ec2e8481bd8da30c1",
+      "hash_meta": "059fcfd98adbf55364e0685d56200627a50049f130173fa94e55ba5365e335c7",
+      "seqno": 23663982
+    },
+    "service": {
+      "entropy": "Tz9t2FcGeIRWNso5nO8w41aZ",
+      "hostname": "xlm.si",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1670184552,
+  "expire_in": 504576000,
+  "prev": "7ab61c8c41da59ed3ce07c0b2370af808ada84f6d8e90c5114e01af01dc09efd",
+  "seqno": 28,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnEU+5uxYjCqswPFJzsRgwk3pfx61hbMmKA5yiWBBnn0Kp3BheWxvYWTESpcCHMQgerYcjEHaWe084HwLI3CvgIrahPbY6QxRFOAa8B3Anv3EIBRfmp9CSkIb10lLvN9Nk/0Gdg373w2XpuUOC+r9w4SLAgHCo3NpZ8RAtqcpzY+wK8+T9FpMENtZPx80osDS2dyyPPvMQd+Ir/CUgpCWz2SdTVmeVujao24ZNJN4se5QZr6erEwVNTtTA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINYLkS9tsaH7H1hc5oEtMv8tyvLtzvtFkPh5adgbbOCHo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stellarstoic
+
+==================================================================

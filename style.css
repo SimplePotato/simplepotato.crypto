@@ -110,10 +110,11 @@ p {
 
 
 
-.text-blur  {
+.text-blur, .text-blur a {
 	text-shadow: 0 0 8px rgba(0, 0, 0, 0.527);
 	color: transparent;
 }
+
 
 #toggle {
 	text-transform: uppercase;

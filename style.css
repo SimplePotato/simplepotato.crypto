@@ -72,12 +72,12 @@ p {
   top: 65%; 
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 550px; 
+  width: 700px; 
   border-right: 2px solid #403f3e;
   font-size: 1vw; 
   white-space: wrap;
   overflow:visible;  
-  animation: typewriter 20s steps(100) 1s 5 normal both, blinkTextCursor .9s steps(100) 113 normal forwards;
+  animation: typewriter 19s steps(100) 1s 5 normal both, blinkTextCursor .9s steps(100) 113 normal forwards;
 }
 
 @keyframes shift{
@@ -283,7 +283,7 @@ p {
 
 .quote {
   position: absolute;
-  top: 50%; 
+  top: 67%; 
   right: 30%;
   transform: translate(-50%, -50%);
   width: 40%; 
@@ -291,7 +291,7 @@ p {
   font-size: 2vw; 
   white-space: wrap;
   overflow:visible;  
-  animation: typewriter 2s steps(10) .10s 10 normal both, blinkTextCursor .9s steps(10) 11 normal forwards;
+  animation: typewriter 1s steps(100) .10s 15 normal both, blinkTextCursor .9s steps(100) 110 normal forwards;
 }
 
 @keyframes shift{
